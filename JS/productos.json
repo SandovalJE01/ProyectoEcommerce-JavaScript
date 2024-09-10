@@ -1,0 +1,83 @@
+[
+    { 
+      "id": "Torta de Cumpleaños Clasica",
+      "titulo": "Torta de Cumpleaños Clasica",
+      "img": "TortasClasicas.jpeg", 
+      "categoria": {
+        "nombre": "Tortas",
+        "id": "Tortas"
+      },
+        "precio": 5000
+    },
+  
+    { "id": "Torta de Cumpleaños Personalizada",
+      "titulo": "Torta de Cumpleaños Personalizada",
+      "img": "tortaspersonalizadas .jpg",
+      "categoria": {
+        "nombre": "Tortas",
+        "id": "Tortas"
+      },
+      "precio": 8000
+    },
+       
+    { "id": "Box Dulce",
+      "titulo": "Box Dulce",
+      "img": "BoxDulce.jpeg",
+      "categoria": {
+       "nombre": "Otros Dulces",
+        "id": "Otros Dulces"
+      },
+      "precio": 3200
+    },
+  
+      { "id": "Tartas Frutales",
+      "titulo": "Tartas Frutales",
+      "img":"Tartas (1).jpeg",
+      "categoria": {
+        "nombre": "Tartas",
+        "id": "Tartas"
+      },
+      "precio": 4800
+    },
+  
+    { "id": "CupCakes Personalizados x12",
+      "titulo": "CupCakes Personalizados x12",
+      "img": "DulcesPersonalizados (3).jpg",
+      "categoria": {
+        "nombre": "Otros Dulces",
+        "id": "Otros Dulces"
+      },
+      "precio": 4000
+       },
+  
+    { "id": "Galletitas Personalizadas x12",
+      "titulo": "Galletitas Personalizadas x12",
+      "img":"Galletitas-inicio.jpg",
+      "categoria": {
+        "nombre": "Otros Dulces",
+        "id": "Otros Dulces"
+      },
+      "precio": 3500
+     },
+  
+    { "id": "Chocotorta",
+      "titulo": "Chocotorta",
+      "img":"TartasyPostres (2).jpg", 
+      "categoria": {
+        "nombre": "Postres",
+        "id": "Postres"
+      },
+      "precio": 3200
+     },
+  
+  
+    { "id": "Paletas Dulces Personalizadas x12",
+      "titulo": "Paletas Dulces Personalizadas x12",
+      "img":"DulcesPersonalizados (1).jpg",
+      "categoria": {
+        "nombre": "Otros Dulces",
+        "id": "Otros Dulces"
+      },
+      "precio": 4000
+     }
+  ]
