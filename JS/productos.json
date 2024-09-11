@@ -2,7 +2,7 @@
     { 
       "id": "Torta de Cumpleaños Clasica",
       "titulo": "Torta de Cumpleaños Clasica",
-      "img": "TortasClasicas.jpeg", 
+      "img": "TortasClasicas.jpg", 
       "categoria": {
         "nombre": "Tortas",
         "id": "Tortas"
@@ -12,7 +12,7 @@
   
     { "id": "Torta de Cumpleaños Personalizada",
       "titulo": "Torta de Cumpleaños Personalizada",
-      "img": "tortaspersonalizadas .jpg",
+      "img": "tortaspersonalizadas.jpg",
       "categoria": {
         "nombre": "Tortas",
         "id": "Tortas"
@@ -22,7 +22,7 @@
        
     { "id": "Box Dulce",
       "titulo": "Box Dulce",
-      "img": "BoxDulce.jpeg",
+      "img": "BoxDulce.jpg",
       "categoria": {
        "nombre": "Otros Dulces",
         "id": "Otros Dulces"
@@ -32,7 +32,7 @@
   
       { "id": "Tartas Frutales",
       "titulo": "Tartas Frutales",
-      "img":"Tartas (1).jpeg",
+      "img":"Tartas (1).jpg",
       "categoria": {
         "nombre": "Tartas",
         "id": "Tartas"
