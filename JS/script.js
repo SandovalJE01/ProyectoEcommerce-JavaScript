@@ -1,6 +1,6 @@
-let productos = []
+let productos = [] 
 
-fetch("./productos.json")
+fetch("./JS/productos.json")
   .then(response => response.json())
   .then(data => {
     productos = data
@@ -9,7 +9,7 @@ fetch("./productos.json")
 
 const contenedorProductos = document.querySelector("#contenedor-productos")
 const botonesCategorias = document.querySelectorAll(".boton-categoria")
-const tituloPrincipal = document.querySelector("#titulo-principal")
+const tituloPrincipal = document.querySelector("#titulo-principal") 
 let botonesAgregar = document.querySelectorAll(".producto-agregar")
 const numerito = document.querySelector("#numerito")
 
@@ -74,7 +74,7 @@ function agregarAlCarrito(e) {
   const productoAgregado = productos.find(productos => productos.id === idBoton)
 
   if (productosEnCarrito.some (productos => productos.id === idBoton)) {
-    const index = productosEnCarrito.findIndex(productos => productos.id === idBoton)
+    const index = productosEnCarrito.findIndex(productos => productos.id === idBoton) 
     productosEnCarrito[index].cantidad++
   } else {
     productoAgregado.cantidad = 1

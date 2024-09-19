@@ -12,7 +12,7 @@ const botonComprar = document.querySelector("#carrito-acciones-comprar")
 
 
 function cargarProductosCarrito() {
-    if (productosEnCarrito && productosEnCarrito.length > 0) { 
+    if (productosEnCarrito && productosEnCarrito.length > 0) {
 
         contenedorCarritoVacio.classList.add("disabled")
         contenedorCarritoProductos.classList.remove("disabled")
@@ -25,7 +25,7 @@ function cargarProductosCarrito() {
 
             const div = document.createElement("div")
             div.classList.add("carrito-producto")
-            div.innerHTML = `
+            div.innerHTML = `  
         <img class="carrito-producto-imagen" src="./images/${productos.img}" alt="${productos.titulo}">
         <div class="carrito-producto-titulo">
             <small>Titulo</small>
@@ -54,7 +54,8 @@ function cargarProductosCarrito() {
     } else {
         contenedorCarritoProductos.classList.add("disabled")
         contenedorCarritoAcciones.classList.add("disabled")
-        contenedorCarritoComprado.classList.add("disabled")
+        contenedorCarritoComprado.classList.add("disabled") 
+        contenedorCarritoComprado.classList.add("disabled") 
     }
 }
 
