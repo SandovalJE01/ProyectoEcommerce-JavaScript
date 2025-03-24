@@ -73,7 +73,7 @@ function agregarAlCarrito(e) {
   const idBoton = e.currentTarget.id
   const productoAgregado = productos.find(productos => productos.id === idBoton)
 
-  if (productosEnCarrito.some (productos => productos.id === idBoton)) {
+  if (productosEnCarrito.some(productos => productos.id === idBoton)) {
     const index = productosEnCarrito.findIndex(productos => productos.id === idBoton) 
     productosEnCarrito[index].cantidad++
   } else {
