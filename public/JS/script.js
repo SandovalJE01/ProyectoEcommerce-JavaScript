@@ -26,7 +26,7 @@ function cargarProductos(productosElegidos) {
     const div = document.createElement("div")
     div.classList.add("productos")
     div.innerHTML = `
-       <img class="producto-imagen" src="/public/images/${productos.img}" alt="${productos.titulo}">
+       <img class="producto-imagen" src="images/${productos.img}" alt="${productos.titulo}">
        <div class="productos-detalles">
           <h3 class="productos-titulo">${productos.titulo}</h3>
           <p class="productos-precio">$ ${productos.precio}</p>
